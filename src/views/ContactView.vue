@@ -87,8 +87,7 @@
                     </div>
                 </div>
                 <div class="mt-[40px] text-2xl wannalearn-wrapper">
-                  <p><span class="text-3xl underline">Short Summary of my learning journey</span> <br> Most of my learning journey is all from learning from YouTube, Posting problems online other experience developers
-                    or ask AI and most importantly reading documentations.<br>
+                  <p><span class="text-3xl underline">Short Summary of my learning journey</span> <br> I’ve primarily learned through YouTube tutorials, engaging with experienced developers online, asking AI for help, and reading documentation.<br>
                     If you have questions along your journey, you can ask me by clicking the social icons above and reaching out there.
                   </p>
                 </div>
