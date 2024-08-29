@@ -36,9 +36,9 @@
                     <p class="text-2xl tracking-wider">Find me on</p>
                     <ul class="flex justify-center gap-3 text-xl">
                         <li><a href="https://discord.com/users/452761144583651328" target="_blank"><i class="fa-brands fa-discord hover:scale-125 duration-300"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-telegram hover:scale-125 duration-300" aria-hidden="true"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-github hover:scale-125 duration-300"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-facebook hover:scale-125 duration-300" aria-hidden="true"></i></a></li>
+                        <li><a href="https://t.me/keovuththana"><i class="fa-brands fa-telegram hover:scale-125 duration-300" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/Vuththana"><i class="fa-brands fa-github hover:scale-125 duration-300"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100013441156247"><i class="fa-brands fa-facebook hover:scale-125 duration-300" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
             </div>
