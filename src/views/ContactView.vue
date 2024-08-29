@@ -3,7 +3,7 @@
         <div class="about-wrapper mb-2 block border border-gray-700 dark:bg-black  md:w-full rounded-[5px] p-4 md:p-6 mt-[50px] hover:shadow-lg transition duration-300">
           <div class="float-right text-md md:text-5xl">
               <TypeWriter
-                :strings="['Hello World', 'Lorem ipsum dolor.']"
+                :strings="['Hello World', 'Lorem ipsum']"
                 cursor="|"
                 :delay="50"
                 :deleteSpeed="20"
