@@ -27,6 +27,17 @@
                       <i class="fa fa-envelope" aria-hidden="true"></i>
                       <p class="text-xl">vuththanakeo69@gmail.com</p>
                   </div>
+                  <div>
+                    <button class="w-[100px] border p-1 rounded-lg text-xl mr-3 hover:bg-white hover:text-black">
+                      <i class="fa fa-download" aria-hidden="true"></i> 
+                      <a :href="cvPdfUrl[0].href" download="KeoVuththana_CV.pdf"> CV</a>
+                    </button>
+                    <button class="w-[100px] border p-1 rounded-lg text-xl mr-3 hover:bg-white hover:text-black">
+                      <i class="fa fa-download" aria-hidden="true"></i> 
+                      <a :href="resumePdfUrl[0].href" download="KeoVuththana_RESUME.pdf"> Resume</a>
+                    </button>
+                  </div>
+                  
           </div>
             <div class="info-wrapper flex flex-col gap-3 mt-[20px]">
                 <p class=".animatedTitle text-2xl">
@@ -126,9 +137,23 @@ import song1 from '../assets/eyedress.mp3'
 import song2 from '../assets/vrienden.mp3'
 import img1 from '../assets/song1.png'
 import img2 from '../assets/song2.png'
+import cv from '../assets/CV/KeoVuththana_CV.pdf'
+import resume from '../assets/Resume/KeoVuththana_RESUME.pdf'
 import TypeWriter from '../components/TypeWriter.vue';
 
 const isHovered = ref(false)
+
+const cvPdfUrl = [
+  {
+    href: cv,
+  }
+]
+
+const resumePdfUrl = [
+  {
+    href: resume,
+  }
+]
 
 const audio = ref(null);
 const state = reactive({
